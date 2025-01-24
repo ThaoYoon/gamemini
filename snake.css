@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+
+body {
+  background:linear-gradient(to right,#84af68,#1E5B53); 
+  padding: 0;
+}
+ #gameContainer{
+  display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    margin:50px 0px ;
+ }
+
+
+ #gameBoard{
+   border: 1px solid;
+ }
+ #imageContainer {
+  flex-shrink: 0; 
+  margin-left:10px;
+}
+#imageContainer img {
+  width: 150px; 
+  height: auto; 
+  object-fit: cover;
+  vertical-align: bottom;
+}
+#score, #resetBtn {
+  text-align: center;
+}
+ #score{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right:80px ;
+   color:antiquewhite;
+ }
+ #scoreText{
+  font-family: "Roboto Mono", serif;
+   font-size: 30px;
+   text-align: center;
+   padding: 0px 50px;
+ }
+ #highscore{
+  font-family: "Roboto Mono", serif;
+   font-size: 30px;
+   text-align: center;
+ }
+ 
+ #resetBtn{
+  font-family: "Roboto Mono", serif;
+   font-size: 22px;
+   width: 100px;
+   height: 40px;
+   border: 2px solid ;
+   border-radius: 15px;
+   cursor: pointer;
+   background: rgb(15, 83, 15);
+   color:antiquewhite;
+ }
+ #resetBtn:hover{
+  color:rgb(16, 151, 106);
+ }
